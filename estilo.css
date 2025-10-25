@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #88c0d0;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+h1, h2, h3 {
+    color: #2e3440;
+}
+
+form label {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #88c0d0;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+img {
+    display: block;
+    margin-top: 1em;
+    max-width: 100%;
+    height: auto;
+}
+
+
+

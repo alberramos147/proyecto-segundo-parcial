@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario - Adopta un Cuyo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de Adopción</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="formulario.html">Formulario</a>
+            <a href="acerca.html">Acerca de mi</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label>¿Tienes experiencia con roedores?</label><br>
+            <input type="radio" id="si" name="experiencia" value="si">
+            <label for="si">Sí</label><br>
+            <input type="radio" id="no" name="experiencia" value="no">
+            <label for="no">No</label><br><br>
+
+            <label>¿Qué estás buscando?</label><br>
+            <input type="checkbox" id="adoptar" name="interes" value="adoptar">
+            <label for="adoptar">Adoptar un cuyo</label><br>
+            <input type="checkbox" id="apadrinar" name="interes" value="apadrinar">
+            <label for="apadrinar">Apadrinar</label><br>
+            <input type="checkbox" id="info" name="interes" value="info">
+            <label for="info">Recibir información</label><br><br>
+
+            <label for="pais">¿En qué país vives?</label><br>
+            <select id="pais" name="pais">
+                <option value="mexico">México</option>
+                <option value="colombia">Colombia</option>
+                <option value="argentina">Argentina</option>
+                <option value="otros">Otros</option>
+            </select><br><br>
+
+            <label>¿Te gustaria resivir un curso para poder ofrecerle un mejor trato a tu cuyo?</label><br>
+            <br><input type="button" id="si" name="curso" value="si">
+     
+            <input type="button" id="no" name="curso" value="no"><br>
+      
+
+
+
+            <br><input type="submit" value="Enviar solicitud">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - todo  sobre Cuyos</p>
+    </footer>
+</body>
+</html>
